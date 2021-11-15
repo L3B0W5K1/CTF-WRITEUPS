@@ -16,7 +16,7 @@
 
 - This means the page exists (whereas 404-pages dont) but we do not have access to it 
 - Pressing the **Edit this page** takes us to a new page where the url still ends with a page number:
-- ![Screenshot 2021-11-15 at 22 40 10](https://user-images.githubusercontent.com/74051842/141857735-7ec813b1-4859-4320-af0d-aeb159cba830.png)
+![Screenshot 2021-11-15 at 22 40 10](https://user-images.githubusercontent.com/74051842/141857735-7ec813b1-4859-4320-af0d-aeb159cba830.png)
 - so what if we change the link to end with number 6?
 
 ![Screenshot 2021-11-15 at 22 43 22](https://user-images.githubusercontent.com/74051842/141858084-e4bf25ca-b402-401d-8590-1476039cf3ec.png)
