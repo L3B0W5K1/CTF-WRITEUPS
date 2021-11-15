@@ -26,6 +26,25 @@
 
 ### Flag 1
 
+- since page ID:s are used SQL injections might work
+- adding a ' to the url: **5dc93c6eb8/page/edit/6'**
+
+**And we get the flag**
+
+- this time it only worked for the edit pages so bear that in mind
+
+### Flag 2
+
+### Flag 3
+
+# Takeaways
+
+### Flag 0
+
+- if you cant view a page, maybe you can edit it
+
+### Flag 1
+
 ### Flag 2
 
 ### Flag 3
