@@ -44,6 +44,19 @@
 
 ### Flag 3
 
+- a button is presented on page 2
+- editing the page returns the following: **<button>Some button</button>**
+- the page also states that scipts are disabled (in order to prevent xss)
+- but the tag <script> is not filtered if within the <button> tags
+
+   
+we enter the following:
+   
+       <button onclick="alert('deg')">Some button</button>
+   
+- pressing the button will now trigger an alert
+- viewing the source returns the flag
+
 # Takeaways
 
 ### Flag 0
@@ -61,3 +74,5 @@
 - try for every field
 
 ### Flag 3
+   
+- if scripts are filtered out you can still get an xss somehow
