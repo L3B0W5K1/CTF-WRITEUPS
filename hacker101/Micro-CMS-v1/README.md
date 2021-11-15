@@ -35,6 +35,13 @@
 
 ### Flag 2
 
+- since we can edit pages on this website cross site scripting might exist
+- enter an alert script into the textbox such as: **<script>alert`Dude`</script>**
+- entering this into the title-text box the flag is returned
+
+**yeah buddy**
+
+
 ### Flag 3
 
 # Takeaways
@@ -49,5 +56,8 @@
 - if it doesnt work for one page, try it again
 
 ### Flag 2
+
+- if there are fields where we can edit stuff, try out XSS stuff
+- try for every field
 
 ### Flag 3
