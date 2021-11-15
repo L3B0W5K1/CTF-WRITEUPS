@@ -45,6 +45,9 @@
 
 ### Flag 1
 
+- try for SQLi when ID:s are used
+- if it doesnt work for one page, try it again
+
 ### Flag 2
 
 ### Flag 3
