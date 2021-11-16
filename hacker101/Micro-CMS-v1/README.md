@@ -52,7 +52,7 @@
    
 we enter the following:
    
-       <button onclick="alert('deg')">Some button</button>
+       <button onclick="alert('I am the walrus')">Some button</button>
    
 - pressing the button will now trigger an alert
 - viewing the source returns the flag
