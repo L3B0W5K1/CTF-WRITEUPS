@@ -11,3 +11,10 @@
 - and compressing:
 
 ![Screenshot 2021-11-16 at 20 37 05](https://user-images.githubusercontent.com/74051842/142053788-8c868870-075f-4a7a-98ab-835b62456091.png)
+
+- going to the page where the file is uploaded will give us the flag
+
+# Takeaways
+
+- php pages can be vulnerable to injections
+- zip files might be able to cause harm if an uncompressed file cant
