@@ -14,3 +14,9 @@ Into base64 string:
         echo "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d" | xxd -r -p | base64
 
 - And the correct base65 string is returned
+
+
+# Takeaways
+
+- umm not quite sure but xxd can convert things into other things
+- 
