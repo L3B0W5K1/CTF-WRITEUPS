@@ -17,4 +17,4 @@
 # Takeaways
 
 - php pages can be vulnerable to injections
-- zip files might be able to cause harm if an uncompressed file cant
+- zip files might be able breach security measures if an uncompressed file cant
