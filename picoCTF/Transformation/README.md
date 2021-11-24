@@ -60,4 +60,16 @@ This code reverses the process:
             out += chr((l & 0x00FF)) 
         print(out)
 
-since each character here are made out of 2 characters from the flag 
+since each character here are made out of 2 characters from the flag the binary value for each character will have 16 bits whereas the ascii symbols in the flag will contain just 8 bits, this is a result of the shifting 
+
+for each character we will have to reverse the bit-shifting by shifting to the right this time, and then ignoring the 8 last bits by filtering them out with the help of the & function and 0x00FF, adding the result to the output.
+
+then the second half of the character will also get added to the output but left as it is, since it wasnt modified from the beginning
+
+and we get the flag by printing!
+
+# Takeaways
+
+- characters have unicode
+- >> does bitshifting
+- & function combined with 0xFF00 can be used to filter out bit values
