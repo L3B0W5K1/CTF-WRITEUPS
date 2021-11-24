@@ -36,6 +36,6 @@ and creating our own code that decrypts the string
 
 What the code does exactly:
 
-1. 
+1. Takes the first element (ascii symbol) in the flag and turns it into its unicode value with *ord* function (all symbols have a certain unicode value)
 2. 
 
