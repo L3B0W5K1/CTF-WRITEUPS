@@ -40,7 +40,8 @@ What the code does exactly:
 2. the **<<** operator shifts the Unicode number one bit to the right, meaning the binary number equvalent gets a zero added from the right, example:
 
 if we have the **~** symbol, its unicode value is **126**, which translates to **0111 1110** in binary
-shifting the unicode value for **~** one step to the left makes the unicode value double, which is logical, since the new binary value is **11111100**
+
+shifting the unicode value for **~** one step to the left makes the unicode value double, which is logical, since the new binary value is **1111 1100**
 
 ![Screenshot 2021-11-24 at 21 17 10](https://user-images.githubusercontent.com/74051842/143307942-123edd2e-658c-4944-ac25-090286637618.png)
 
