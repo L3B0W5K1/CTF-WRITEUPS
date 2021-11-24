@@ -55,7 +55,7 @@ This code reverses the process:
         out = ""
         for l in flag:
             l = ord(l) 
-            out += chr((l)>>8 & 0x00FF) 
+            out += chr((l)>>8 & 0xFF00) 
             out += chr((l & 0x00FF)) 
         print(out)
 
