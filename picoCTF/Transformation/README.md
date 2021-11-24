@@ -60,4 +60,4 @@ This code reverses the process:
             out += chr((l & 0x00FF)) 
         print(out)
 
-since each character here are made out of 2 characters in the flag 
+since each character here are made out of 2 characters from the flag 
