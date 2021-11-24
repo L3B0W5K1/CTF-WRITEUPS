@@ -32,3 +32,4 @@ and it has encrypted the flag returning this string: 灩捯䍔䙻ㄶ形楴獟楮
 
 what we have to figure out is how the code does this and reverse engineer it
 
+and creating our own code that decrypts the string
