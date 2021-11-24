@@ -10,21 +10,21 @@ and this piece of code:
      
 indented:
      
-    ''.join(
-    [
-        chr(
-            (
-                ord(flag[i]) << 8) +
-                ord(flag[i + 1]
+        ''.join(
+        [
+            chr(
+                (
+                    ord(flag[i]) << 8) +
+                    ord(flag[i + 1]
+                )
             )
-        )
-        for i in range(
-            0,
-            len(flag),
-            2
-        )
-    ]
-)
+            for i in range(
+                0,
+                len(flag),
+                2
+            )
+        ]
+    )
 
 so what this code does is its taken the flag as input (the flag that we want)
 
@@ -33,3 +33,9 @@ and it has encrypted the flag returning this string: 灩捯䍔䙻ㄶ形楴獟楮
 what we have to figure out is how the code does this and reverse engineer it
 
 and creating our own code that decrypts the string
+
+What the code does exactly:
+
+1. 
+2. 
+
