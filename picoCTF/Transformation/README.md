@@ -49,5 +49,13 @@ shifting the unicode value for **~** one step to the left makes the unicode valu
 4. then the function does the same for each pair of elements in the list, using for loops with steps of 2
 5. The unicodes are turned into characters and joined together, which then returns us those japanese/chinese (I wouldnt know! 😫) symbols which represent the unicodes of which the function calculated
 
+This code reverses the process:
 
+        flag = '灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸弰摤捤㤷慽'
+        out = ""
+        for l in flag:
+            l = ord(l) 
+            out += chr((l)>>8 & 0x00FF) 
+            out += chr((l & 0x00FF)) 
+        print(out)
 
