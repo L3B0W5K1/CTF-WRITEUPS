@@ -71,5 +71,5 @@ and we get the flag by printing!
 # Takeaways
 
 - characters have unicode
-- >> does bitshifting
+- **>>** does bitshifting
 - & function combined with 0xFF00 can be used to filter out bit values
