@@ -8,3 +8,8 @@ Since this isnt an online based CTF we have to download some things to make it w
 4. `npm install`
 5. `npm start`
 6. Navigate to <http://localhost:3000>
+
+
+### Configure Burp Suite to listen on port 3000
+
+1. 
