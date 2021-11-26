@@ -2,3 +2,4 @@
 
 Since this isnt an online based CTF we have to download some things to make it work
 
+1. Download nodejs
