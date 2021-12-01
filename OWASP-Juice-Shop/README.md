@@ -10,6 +10,12 @@ Since this isnt an online based CTF we have to download some things to make it w
 6. Navigate to <http://localhost:3000>
 
 
-### Configure Burp Suite to listen on port 3000
+### Configure Burp Suite to work with Juice-shop
 
-1. 
+This only works in firefox due to some localhost hijacking stuff, and this security measure can only be disabled in firefox
+1. Navigate to `about:config`
+2. Search for `network.proxy.allow_hijacking_localhost` and make `true`
+3. Change firefox proxy settings to `127.0.0.1` port `8080`
+4. Make a configuration on burp proxy listeners to the same as above
+5. Navigate to `localhost:3000` in firefox
+6. Install certificate and add it to the firefox browser
