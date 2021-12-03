@@ -25,9 +25,14 @@ we head to `<IP>/Sup3rS3cretPickl3Ingred.txt` and get the first ingredient
 
 ## Whats the second ingredient Rick needs?
 
-we 
+in order to retrieve everything in the directory and get an overview we want to use grep
+
+we use command: `grep -r .` 
+
+we find the **rick** folder within the **home** folder, where the file **second ingredents** is found
 
 ## Whats the final ingredient Rick needs?
+
 
 
 ## (Bonus) Easter egg kinda?
