@@ -12,7 +12,7 @@ using nmap command: `nmap -sV --script=http-enum <IP>`
 
 we get a **robots.txt** directory
 
-we navigate to `<IP>/robots.txt` where a string is represented, maybe a password?
+we navigate to `<IP>/robots.txt` where a string is presented, maybe a password?
 
 nmap also returns a **login.php** page, we enter the information given and we are logged on
 
