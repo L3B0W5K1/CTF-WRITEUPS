@@ -33,6 +33,12 @@ we find the **rick** folder within the **home** folder, where the file **second 
 
 ## Whats the final ingredient Rick needs?
 
+all commands are not allowed in the web interface, so we cant get sudo access
+
+since nmap reveals that the website has port 22 open we want to try to get a reverse shell going
+
+since we have access to a Command pannel the outgoing traffic from the machine has less restrictions than ingoing traffic, this is why reverse shells often times work
+
 
 
 ## (Bonus) Easter egg kinda?
